@@ -1,0 +1,35 @@
+{
+  "name": "todo-app-server",
+  "version": "1.0.0",
+  "description": "Todo-React-App Server Using NodeJS-ExpressJS-MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "web-push": "web-push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamsahmedansari/Todo-App-Server.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "React",
+    "ExpressJS",
+    "MonogoDb",
+    "Todo"
+  ],
+  "author": "hamsahmedansari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hamsahmedansari/Todo-App-Server/issues"
+  },
+  "homepage": "https://github.com/hamsahmedansari/Todo-App-Server#readme",
+  "dependencies": {
+    "cloudinary": "^1.13.2",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.18",
+    "nodemon": "^1.18.10",
+    "web-push": "^3.3.3"
+  }
+}
